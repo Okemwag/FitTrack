@@ -1,5 +1,5 @@
 # Use the offical Golang image to create a build artifact.
-FROM golang:1.16-alpine as builder
+FROM golang:1.21-alpine as builder
 
 # Copy local code to the container image.
 WORKDIR /go/app
